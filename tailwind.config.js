@@ -43,7 +43,7 @@ module.exports = {
         // color22: " ",
       },
       fontFamily: {
-        sans: ["Outfit"],
+        custom: ["League Spartan"],
       },
     },
   },
