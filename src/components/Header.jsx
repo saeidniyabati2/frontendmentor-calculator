@@ -2,7 +2,7 @@ import Toggle from "./Buttons/Toggle";
 
 const Header = () => {
   return (
-    <div className="p-4  h-20 flex flex-row  items-center  ">
+    <div className="  h-20 flex flex-row   items-center  ">
       <h2 className="text-2xl font-bold text-white w-1/2">calc</h2>
       {/* container text and toggle */}
       <div className="flex mt-3 flex-row  w-1/2 px-2 space-x-2">
