@@ -1,7 +1,118 @@
+import SmallKey from "./Buttons/SmallKey";
 
-const KeyPad = ()=>{
+const KeyPad = () => {
+  return (
+    <div className="grid grid-cols-4 p-6 bg-color2 h-[26rem] mt-5 rounded-xl gap-3 ">
+      <SmallKey
+        className="bg-color9"
+        color="bg-color8"
+        textColor="text-color10"
+        name="7"
+      />
+      <SmallKey
+        className="bg-color9"
+        color="bg-color8"
+        textColor="text-color10"
+        name="8"
+      />
+      <SmallKey
+        className="bg-color9"
+        color="bg-color8"
+        textColor="text-color10"
+        name="9"
+      />
+      <SmallKey
+        className="bg-color5"
+        color="bg-color4"
+        name="DEL"
+        textColor="text-white"
+      />
+      <SmallKey
+        className="bg-color9"
+        color="bg-color8"
+        textColor="text-color10"
+        name="4"
+      />
+      <SmallKey
+        className="bg-color9"
+        color="bg-color8"
+        textColor="text-color10"
+        name="5"
+      />
+      <SmallKey
+        className="bg-color9"
+        color="bg-color8"
+        textColor="text-color10"
+        name="6"
+      />
+      <SmallKey
+        className="bg-color9"
+        color="bg-color8"
+        textColor="text-color10"
+        name="+"
+      />
+      <SmallKey
+        className="bg-color9"
+        color="bg-color8"
+        textColor="text-color10"
+        name="1"
+      />
+      <SmallKey
+        className="bg-color9"
+        color="bg-color8"
+        textColor="text-color10"
+        name="2"
+      />
+      <SmallKey
+        className="bg-color9"
+        color="bg-color8"
+        textColor="text-color10"
+        name="3"
+      />
+      <SmallKey
+        className="bg-color9"
+        color="bg-color8"
+        textColor="text-color10"
+        name="-"
+      />
+      <SmallKey
+        className="bg-color9"
+        color="bg-color8"
+        textColor="text-color10"
+        name="."
+      />
+      <SmallKey
+        className="bg-color9"
+        color="bg-color8"
+        textColor="text-color10"
+        name="0"
+      />
+      <SmallKey
+        className="bg-color9"
+        color="bg-color8"
+        textColor="text-color10"
+        name="/"
+      />
+      <SmallKey
+        className="bg-color9"
+        color="bg-color8"
+        textColor="text-color10"
+        name="x"
+      />
+      <SmallKey
+        className="col-span-2 bg-color5 "
+        color="bg-color4"
+        textColor="text-white"
+        name="RESET"
+      />
+      <SmallKey
+        className="col-span-2 bg-color7 text-white"
+        color="bg-color6"
+        textColor="text-white"
+        name="="
+      />
+    </div>
+  );
+};
 
-    return(
-        
-    )
-}
+export default KeyPad;

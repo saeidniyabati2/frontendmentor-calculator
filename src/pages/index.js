@@ -3,6 +3,7 @@ import { Fragment } from "react";
 
 import Header from "@/components/Header";
 import Screen from "@/components/Screen";
+import KeyPad from "@/components/KeyPad";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <div className="sm:w-full min-h-screen p-4 flex flex-col">
         <Header></Header>
         <Screen />
+        <KeyPad />
       </div>
     </Fragment>
   );
