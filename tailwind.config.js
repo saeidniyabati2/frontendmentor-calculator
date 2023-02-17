@@ -61,8 +61,8 @@ module.exports = {
         color2: "hsl(185, 58%, 25%)",
         color3: "hsl(25, 95%, 40%)",
         color4: "hsl(25, 99%, 27%)",
-        color5: "hsl(30, 25%, 89%)",
-        color6: "hsl(28, 16%, 65%)",
+        color5: "hsl(45, 7%, 89%)",
+        color6: "hsl(35, 11%, 61%)",
         // Text
         color7: "hsl(60, 10%, 19%)",
         color8: "hsl(0, 0%, 100%)",
@@ -84,23 +84,23 @@ module.exports = {
         color8: "hsl(0, 0%, 100%)",
       },
 
-      // purple: {
-      //   // Backgrounds
-      //   main_bg: "hsl(268, 75%, 9%)",
-      //   toggle_bg: "hsl(268, 71%, 12%)",
-      //   screen_bg: " hsl(268, 71%, 12%)",
-      //   // Key
-      //   color1: "hsl(281, 89%, 26%)",
-      //   color2: "hsl(285, 91%, 52%)",
-      //   color3: " hsl(176, 100%, 44%)",
-      //   color4: "hsl(177, 92%, 70%)",
-      //   color5: "hsl(268, 47%, 21%)",
-      //   color6: " hsl(290, 70%, 36%)",
-      //   // Text
-      //   color7: "hsl(52, 100%, 62%)",
-      //   color8: "hsl(0, 0%, 100%)",
-      //   color9: "hsl(198, 20%, 13%)",
-      // },
+      purple: {
+        // Backgrounds
+        main_bg: "hsl(268, 75%, 9%)",
+        toggle_bg: "hsl(268, 71%, 12%)",
+        screen_bg: "hsl(268, 71%, 12%)",
+        // Key
+        color1: "hsl(281, 89%, 26%)",
+        color2: "hsl(285, 91%, 52%)",
+        color3: "hsl(176, 100%, 44%)",
+        color4: "hsl(177, 92%, 70%)",
+        color5: "hsl(268, 47%, 21%)",
+        color6: "hsl(290, 70%, 36%)",
+        // Text
+        color7: "hsl(52, 100%, 62%)",
+        color8: "hsl(0, 0%, 100%)",
+        color9: "hsl(198, 20%, 13%)",
+      },
     }),
   ],
 };
