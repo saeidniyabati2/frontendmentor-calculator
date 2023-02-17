@@ -1,114 +1,113 @@
 import SmallKey from "./Buttons/SmallKey";
 
-
 const KeyPad = () => {
   return (
-    <div className="grid grid-cols-4 p-6 bg-color2 h-[26rem] mt-5 rounded-xl gap-3 ">
+    <div className="grid grid-cols-4 p-6 bg-toggle_bg h-[26rem] mt-5 rounded-xl gap-3 ">
       <SmallKey
-        className="bg-color9"
-        color="bg-color8"
-        textColor="text-color10"
+        className="bg-color6"
+        color="bg-color5"
+        textColor="text-color7"
         name="7"
       />
       <SmallKey
-        className="bg-color9"
-        color="bg-color8"
-        textColor="text-color10"
+        className="bg-color6"
+        color="bg-color5"
+        textColor="text-color7"
         name="8"
       />
       <SmallKey
-        className="bg-color9"
-        color="bg-color8"
-        textColor="text-color10"
+        className="bg-color6"
+        color="bg-color5"
+        textColor="text-color7"
         name="9"
       />
       <SmallKey
-        className="bg-color5"
-        color="bg-color4"
+        className="bg-color2"
+        color="bg-color1"
         name="DEL"
         textColor="text-white"
       />
       <SmallKey
-        className="bg-color9"
-        color="bg-color8"
-        textColor="text-color10"
+        className="bg-color6"
+        color="bg-color5"
+        textColor="text-color7"
         name="4"
       />
       <SmallKey
-        className="bg-color9"
-        color="bg-color8"
-        textColor="text-color10"
+        className="bg-color6"
+        color="bg-color5"
+        textColor="text-color7"
         name="5"
       />
       <SmallKey
-        className="bg-color9"
-        color="bg-color8"
-        textColor="text-color10"
+        className="bg-color6"
+        color="bg-color5"
+        textColor="text-color7"
         name="6"
       />
       <SmallKey
-        className="bg-color9"
-        color="bg-color8"
-        textColor="text-color10"
+        className="bg-color6"
+        color="bg-color5"
+        textColor="text-color7"
         name="+"
       />
       <SmallKey
-        className="bg-color9"
-        color="bg-color8"
-        textColor="text-color10"
+        className="bg-color6"
+        color="bg-color5"
+        textColor="text-color7"
         name="1"
       />
       <SmallKey
-        className="bg-color9"
-        color="bg-color8"
-        textColor="text-color10"
+        className="bg-color6"
+        color="bg-color5"
+        textColor="text-color7"
         name="2"
       />
       <SmallKey
-        className="bg-color9"
-        color="bg-color8"
-        textColor="text-color10"
+        className="bg-color6"
+        color="bg-color5"
+        textColor="text-color7"
         name="3"
       />
       <SmallKey
-        className="bg-color9"
-        color="bg-color8"
-        textColor="text-color10"
+        className="bg-color6"
+        color="bg-color5"
+        textColor="text-color7"
         name="-"
       />
       <SmallKey
-        className="bg-color9"
-        color="bg-color8"
-        textColor="text-color10"
+        className="bg-color6"
+        color="bg-color5"
+        textColor="text-color7"
         name="."
       />
       <SmallKey
-        className="bg-color9"
-        color="bg-color8"
-        textColor="text-color10"
+        className="bg-color6"
+        color="bg-color5"
+        textColor="text-color7"
         name="0"
       />
       <SmallKey
-        className="bg-color9"
-        color="bg-color8"
-        textColor="text-color10"
+        className="bg-color6"
+        color="bg-color5"
+        textColor="text-color7"
         name="/"
       />
       <SmallKey
-        className="bg-color9"
-        color="bg-color8"
-        textColor="text-color10"
+        className="bg-color6"
+        color="bg-color5"
+        textColor="text-color7"
         name="x"
       />
       <SmallKey
-        className="col-span-2 bg-color5 "
-        color="bg-color4"
+        className="col-span-2 bg-color2 "
+        color="bg-color1"
         textColor="text-white"
         name="RESET"
       />
       <SmallKey
-        className="col-span-2 bg-color7 text-white"
-        color="bg-color6"
+        className="col-span-2 bg-color4 text-white"
+        color="bg-color3"
         textColor="text-white"
         name="="
       />

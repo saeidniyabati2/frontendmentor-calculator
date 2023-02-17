@@ -12,13 +12,13 @@ const Screen = () => {
   };
   // console.log(handleChange());
   return (
-    <div className="bg-color3 py-3 rounded-xl h-27 mt-4 flex justify-center items-center px-3">
+    <div className="bg-screen_bg py-3 rounded-xl h-27 mt-4 flex justify-center items-center px-3">
       <input
         type="text"
         name="calc"
         value={input}
         onChange={handleChange}
-        className="p-4 w-full bg-color3 text-white font-bold outline-0 text-4xl font-custom"
+        className="p-4 w-full bg-screen_bg text-white font-bold outline-0 text-4xl font-custom"
         disabled
         readOnly
         dir="rtl"
