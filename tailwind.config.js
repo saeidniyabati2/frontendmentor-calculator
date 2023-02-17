@@ -18,10 +18,10 @@ module.exports = {
     extend: {
       colors: {
         // THEME 1
-        color1: " hsl(222, 26%, 31%)",
+        bg: "hsl(222, 26%, 31%)",
         color2: "hsl(223, 31%, 20%)",
         color3: " hsl(224, 36%, 15%)",
-        color4: "hsl(225, 21%, 49%) ",
+        color4: "hsl(225, 21%, 49%)",
         color5: "hsl(224, 28%, 35%)",
         color6: " hsl(6, 63%, 50%)",
         color7: "hsl(6, 70%, 34%)",

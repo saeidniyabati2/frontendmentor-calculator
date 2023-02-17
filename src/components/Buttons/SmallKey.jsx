@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const SmallKey = (props) => {
-  console.log(props.className);
+//   console.log(props.className);
 
   const [textColor, setTextColor] = useState("text-color10");
   const [fontSize, setFontSize] = useState("text-3xl");
@@ -29,7 +29,7 @@ const SmallKey = (props) => {
   return (
     <div className={`rounded-lg ${props.className} duration-150 group`}>
       <div
-        class={`h-[60px] duration-150 ${props.color} rounded-lg  group-hover:bg-white flex justify-center relative `}
+        className={`h-[60px] duration-150 ${props.color} rounded-lg  group-hover:bg-white flex justify-center relative `}
       >
         <p
           className={`${props.textColor} ${fontSize} font-custom absolute top-1/2 -translate-y-[43%] `}

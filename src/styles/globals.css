@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body {
-  @apply bg-color1;
+  /* @apply bg-color1; */
 }

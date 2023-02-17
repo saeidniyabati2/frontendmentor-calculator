@@ -1,5 +1,6 @@
 import SmallKey from "./Buttons/SmallKey";
 
+
 const KeyPad = () => {
   return (
     <div className="grid grid-cols-4 p-6 bg-color2 h-[26rem] mt-5 rounded-xl gap-3 ">
