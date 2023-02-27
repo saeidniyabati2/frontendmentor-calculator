@@ -7,15 +7,16 @@ import Screen from "@/components/Screen";
 import KeyPad from "@/components/KeyPad";
 
 export default function Home() {
-  const styles = useSelector((state) => state.styles);
-  const [bg, setBg] = useState(styles.bg);
-  console.log(styles.bg);
+  const theme = useSelector((state) => state.styles.value.theme);
+
   return (
     <Fragment>
-      <div className={`sm:w-full min-h-screen p-4 flex flex-col`}>
-        <Header></Header>
+      <div
+        className={`sm:w-full min-h-screen p-4 flex flex-col ${theme} bg-main_bg`}
+      >
+        <Header theme={theme}></Header>
         <Screen />
-        <KeyPad />
+        <KeyPad theme={theme} />
       </div>
     </Fragment>
   );

@@ -1,6 +1,6 @@
 import SmallKey from "./Buttons/SmallKey";
 
-const KeyPad = () => {
+const KeyPad = (props) => {
   return (
     <div className="grid grid-cols-4 p-6 bg-toggle_bg h-[26rem] mt-5 rounded-xl gap-3 ">
       <SmallKey
@@ -108,7 +108,9 @@ const KeyPad = () => {
       <SmallKey
         className="col-span-2 bg-color4 text-white"
         color="bg-color3"
-        textColor="text-white"
+        textColor={`${
+          props.theme == "theme-purple" ? "text-black" : "text-white"
+        }`}
         name="="
       />
     </div>
