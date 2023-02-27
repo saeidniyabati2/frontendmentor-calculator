@@ -14,9 +14,9 @@ export default function Home() {
       <div
         className={`sm:w-full min-h-screen p-4 flex flex-col ${theme} bg-main_bg`}
       >
-        <Header></Header>
+        <Header theme={theme}></Header>
         <Screen />
-        <KeyPad />
+        <KeyPad theme={theme} />
       </div>
     </Fragment>
   );

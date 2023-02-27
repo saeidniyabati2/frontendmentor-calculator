@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useSelector, useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 import {
   darkTheme,
   lightTheme,
@@ -11,7 +11,6 @@ const Toggle = () => {
   const [toggleNo, setToggleNo] = useState(1);
 
   useEffect(() => {
-    
     if (toggleNo == 1) {
       dispatch(darkTheme(toggleNo));
     }
@@ -24,9 +23,9 @@ const Toggle = () => {
   }, [toggleNo]);
 
   return (
-    <div className="bg-red-500 flex justify-center rounded-[50px]">
+    <div className="bg-toggle_bg flex justify-center rounded-[50px] p-1">
       <input
-        className={`button w-8 h-8 bg-black rounded-[50%] appearance-none ${
+        className={`button w-8 h-8 bg-color3 rounded-[50%] appearance-none ${
           toggleNo === 1 ? "opacity-100" : "opacity-0"
         }`}
         type="radio"
@@ -35,21 +34,21 @@ const Toggle = () => {
         onClick={() => setToggleNo(1)}
       />
       <input
-        className={`button w-8 h-8 bg-black rounded-[50%] appearance-none ${
+        className={`button w-8 h-8 bg-color3 rounded-[50%] appearance-none ${
           toggleNo === 2 ? "opacity-100" : "opacity-0"
         }`}
         type="radio"
         name="toggleTwo"
-        id="one"
+        id="two"
         onClick={() => setToggleNo(2)}
       />
       <input
-        className={`button w-8 h-8 bg-black rounded-[50%] appearance-none ${
+        className={`button w-8 h-8 bg-color3 rounded-[50%] appearance-none ${
           toggleNo === 3 ? "opacity-100" : "opacity-0"
         }`}
         type="radio"
         name="toggleThree"
-        id="one"
+        id="three"
         onClick={() => setToggleNo(3)}
       />
     </div>

@@ -1,12 +1,13 @@
 import { useState } from "react";
+import { useSelector } from "react-redux";
 import { threeDigits } from "../../Helper/index";
 const Screen = () => {
   const [input, setInput] = useState("4454542");
+  const theme = useSelector((state) => state.styles.value.theme);
 
   const handleChange = (event) => {
     const { name, value } = event;
-    console.log(name, value);
-    console.log(threeDigits(input));
+
 
     setInput(threeDigits("1345933"));
   };
@@ -18,7 +19,9 @@ const Screen = () => {
         name="calc"
         value={input}
         onChange={handleChange}
-        className="p-4 w-full bg-screen_bg text-white font-bold outline-0 text-4xl font-custom"
+        className={`p-4 w-full bg-screen_bg ${
+          theme == "theme-dark" ? "text-white" : "text-color7"
+        } font-bold outline-0 text-4xl font-custom`}
         disabled
         readOnly
         dir="rtl"
