@@ -19,7 +19,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        
+
       },
       fontFamily: {
         custom: ["League Spartan"],
